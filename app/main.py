@@ -1,16 +1,14 @@
 from base64 import b64decode
 import os
-
 import random
 from MonsterLab import Monster
 from flask import Flask, render_template, request
 from pandas import DataFrame
-
 from app.data import Database
 from app.graph import chart
 from app.machine import Machine
 
-SPRINT = 2
+SPRINT = 3
 APP = Flask(__name__)
 
 

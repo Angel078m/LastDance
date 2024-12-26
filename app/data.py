@@ -122,3 +122,4 @@ class Database:
         html_table = df.to_html(classes="table table-striped", index=False)
 
         return html_table
+
